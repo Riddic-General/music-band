@@ -1,0 +1,107 @@
+header,articel,nav{
+	display: block;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	margin: 1em 10%;
+	background-image: url(../img/image3.jpg);
+	background-attachment: fixed;
+	background-position: top left;
+	background-repeat: repeat-x;
+	max-width: 80em;
+}
+header{
+	background-image: url(../img/image4.jpg);
+	background-size: 730px  490px;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	border-width: .1em;
+	border-style: solid;
+	border-bottom-width: 0;
+}
+header nav{
+	border-width: .1em;
+	border-style: solid;
+	border-bottom-width: 0;
+	border-top-width: 0;
+	padding: 0 25%;
+}
+
+header img{
+	
+}
+header nav ul{
+	width: 100%;
+	overflow: hidden;
+	border-left-width: .1em;
+	border-left-style: solid;
+}
+header nav li{
+	display: inline;
+}
+header nav li a{
+	display: block;
+	float: left;
+	padding: .5em 2em;
+	border-right: .1em solid;
+}
+article{
+	border-width: .1em;
+	border-style: solid;
+	border-top-width: 0;
+	padding:2em 10%;
+	line-height: 1.8em;
+}
+article img{
+	border-width: .1em;
+	border-style: solid;
+	outline-width: .1em;
+	outline-style: solid;
+}
+
+#slideshow{
+	width: 150px;
+	height: 150px;
+	position: relative;
+	overflow:hidden;
+	border-radius: 15px;
+}
+#preview{
+	position: absolute;
+	border-width: 0;
+	outline-width: 0;
+}
+#frame{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+article ul li img{
+	width: 100px;
+	height: 100px;
+	
+}
+#imagegallery li{
+	display: inline;
+	padding-left: 20px;
+}
+#placeholder{
+	width:400px;
+	height: 300px;
+	border-radius: 15px;
+	border-width: 0;
+	outline-style: none;
+}
+td{
+	padding:.5em 3em;
+}
+label{
+	display: block;
+}
+fieldset{
+	border: 0;
+}

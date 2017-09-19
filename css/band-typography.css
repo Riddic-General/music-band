@@ -1,0 +1,42 @@
+body{
+	font-size: 100%;
+	font-family: helvetica,arial,sans-serif;
+}
+body *{
+	font-size: 1em;
+}
+a{
+	font-weight: bold;
+	text-decoration: none;
+}
+header nav{
+	font-family: "lucida console",helvetica,arial,sans-serif;
+	
+}
+header nav a{
+	font-weight: bold;
+	text-decoration: none;
+}
+article{
+	line-height: 2em;
+}
+article p{
+	margin: 1em 0;
+}
+h1{
+	font-family: georgia,"times new roman",sans-serif;
+	font: 2.4em normal;
+}
+h2{
+	font-family: georgia,"times new roman",sans-serif;
+	font: 1.8em normal;
+	margin-top: 1em;
+}
+h3{
+	font-family: georgia,"times new roman",sans-serif;
+	font:1.4em normal;
+	margin-top: 1em;
+}
+#imagegallery li{
+	list-style-type: none;
+}
